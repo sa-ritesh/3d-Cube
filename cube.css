@@ -1,0 +1,68 @@
+html{
+   background:url("Images/shark.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   width:100%;
+   height: 100%;
+}
+@keyframes animate{
+   from{
+      transform:rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+   }
+   to{
+   transform:rotateY(360deg) rotateZ(360deg) rotateX(360deg) translateY(100px);
+   }
+}
+.cube{
+   border:1px solid black;
+   max-width: 200px;
+   height: 200px;
+   margin-top: 150px;
+   margin-left:auto;
+   margin-right: auto;
+   transform-style: preserve-3d;
+   perspective: 1000px;
+   animation-name: animate;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-play-state: all;
+}
+.face{
+   border:2px solid white;
+   box-sizing: border-box;
+   width: 100%;
+   height: 100%;
+   background-size: contain;
+   background-position: center;
+}
+.one{
+   background:url("Images/shubham.png");
+}
+.two{
+   background:url("Images/deep.png");
+   transform: rotateX(90deg) translateY(100px) translateZ(100px);
+}
+.three{
+   background:url("Images/lakhan.png");
+   transform: rotateX(90deg) translateY(100px) translateZ(500px);
+}
+.four{
+   background:url("Images/me.png");
+   transform: translateY(-600px) translateZ(200px);
+}
+.five{
+   background:url("Images/vansh.png");
+   transform: translateY(-800px) rotateY(90deg) translateZ(100px) translateX(-100px);
+}
+.six{
+   background:url("Images/pranjul.png");
+   transform: translateZ(100px) translateY(-1000px) translateX(-100px) rotateY(90deg);
+}
+@media screen and (max-width: 350px){
+   html{
+      background: url("Images/shark-2.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
+}
