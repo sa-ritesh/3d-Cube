@@ -37,26 +37,26 @@ html{
    background-position: center;
 }
 .one{
-   background:url("Images/one.jpg");
+   background:url("Images/shubham.png");
 }
 .two{
-   background:url("Images/two.jpg");
+   background:url("Images/deep.png");
    transform: rotateX(90deg) translateY(100px) translateZ(100px);
 }
 .three{
-   background:url("Images/three.jpg");
+   background:url("Images/lakhan.png");
    transform: rotateX(90deg) translateY(100px) translateZ(500px);
 }
 .four{
-   background:url("Images/four.jpg");
+   background:url("Images/me.png");
    transform: translateY(-600px) translateZ(200px);
 }
 .five{
-   background:url("Images/five.jpg");
+   background:url("Images/pranjul.png");
    transform: translateY(-800px) rotateY(90deg) translateZ(100px) translateX(-100px);
 }
 .six{
-   background:url("Images/six.jpg");
+   background:url("Images/vansh.png");
    transform: translateZ(100px) translateY(-1000px) translateX(-100px) rotateY(90deg);
 }
 @media screen and (max-width: 350px){
